@@ -3,41 +3,38 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package days;
-
 /**
  *
  * @author sivagamasrinivasan
  */
 public class Weekdays 
 {
-  public void nameOfDay(String code)
+  public static void nameOfDay(Enum.DayofW d)
      {
-    switch(code.toUpperCase())
+    switch(d)
       {
-      case "ONE":
+      case ONE:
         System.out.println("Monday");
         break;
-      case "TWO":
+      case TWO:
         System.out.println("Tuesday");
         break;
-      case "THREE":
+      case THREE:
         System.out.println("Wednesday");
         break;
-      case "FOUR":
+      case FOUR:
         System.out.println("Thursday");
         break;
-      case "FIVE":
+      case FIVE:
         System.out.println("Friday");
         break;
-      case "SIX":
+      case SIX:
         System.out.println("Saturday");
         break;
-      case "SEVEN":
+      case SEVEN:
         System.out.println("Sunday");
         break;
     }
   
+     }
 }
-}
-
-
